@@ -1,0 +1,29 @@
+
+$ rmstalk -p 6969
+rmstalk v0.0.1
+Server started on port 6969
+Type /dial <ip>[:port] to call
+> /dial 0.0.0.0
+Connecting to 0.0.0.0:6969...
+Ringing...
+Starting call
+Type /hangup to end call
+> /info
+codec: ogg vorbis vbr
+bitrate: 128kbps
+etc...
+> /hangup
+Ended call
+> /exit
+
+$ rmstalk
+...
+>
+Incoming call from 1.1.1.1:6969
+Type /answer to pick up
+> /answer
+Starting call
+Type /hangup to end call
+>
+Remote user has ended call
+> /exit
